@@ -1,39 +1,20 @@
 body {
-  /* Location of the image */
   background-image: url(background.jpg);
-  
-  /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
-  
-  /* Background image doesn't tile */
   background-repeat: no-repeat;
-  
-  /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height */
   background-attachment: fixed;
-  
-  /* This is what makes the background image rescale based
-     on the container's size */
   background-size: cover;
-  
-  /* Set a background color that will be displayed
-     while the background image is loading */
   background-color: #464646;
 }
 @media (min-width:500px){ h1{
-font-family: arial; /*font in the header*/
+font-family: arial;
 color:white;
-font-size: 2em; /*1em=16px*/ }}
-/*This happens when the width of the window is larger than 500px*/
-
+font-size: 2em;}}
 @media(min-width: 750px){ h1{
- font-family: georgia; /*font of the header*/
+ font-family: georgia;
  color:white;
-font-size: 3em; /*1em=16px*/}}
-/*This happens when the width of the window is larger than 750px*/
-
+font-size: 3em;}}
 @media(min-width: 1000px){ h1 {
-font-family: serif; /*font of the header*/
+font-family: serif;
 color:white;
-font-size: 4em; /*1em=16px*/}}
-/*This happens when the width of the window is larger than 1000px*/
+font-size: 4em;}}
