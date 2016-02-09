@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+<title>Adam's Final</title>
+<meta name="description" content="A magic counter to impress Adam with" />
+<meta name="author" content="Cal Corbin" />
+<link rel="stylesheet" href="styles.css" type="text/css"/>
+<style>
+body {
+    background-color: lightblue;
+}
+</style>
+</head>
+<body>
+<script>
+	function countDown() {
+	for(var i = 10; i > 0; i--) {
+	alert("It is " + i + " seconds til launch.")
+	}
+};
+  function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
+</script>
+
+<h1>
+<center style="font-size: 300%; color: white;">
+Hello.
+</center>
+<center style="color: white;">
+Are you ready Adam?
+</center>
+</h1>
+<div>
+<center style="margin-top: 100px;">
+<input type="button" value="Count down!" onclick="play();countDown()">
+<audio id="audio" src="music1.mp3" ></audio>
+</center>
+</div>
+</body>
+</html>
